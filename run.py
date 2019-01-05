@@ -146,7 +146,7 @@ for row in range(1, int(height / dice_side_dimension) + 1):
 
 cv2.imwrite('output-on-gray.png',gray_img)
 cv2.imwrite('output-on-color.png',img)
-cv2.imwrite('output-to-dices.png',inv_gray_img)
+cv2.imwrite('output-to-dice.png',inv_gray_img)
 
 total_dice = (int(height / dice_side_dimension) + 1) * dice_per_row
 print('you will need {} dices. {} dice per row with {} rows'.format(total_dice, dice_per_row, int(height / dice_side_dimension) + 1))
