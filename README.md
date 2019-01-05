@@ -10,4 +10,4 @@ It will calculate how many dice you will need to recreate the portrait and will 
  - grayscale image of actual dice faces rendering
  - csv file with row by row mapping of dice placement
  
- ![alt tag](cropped-dice.pgn)
+ ![dice_rendering](https://github.com/mirceaciu/dicedraw/blob/master/cropped-dice.png)
