@@ -1,17 +1,18 @@
 # dicedraw
-Create a portrait of yourself made from dices using script.
+Create a dice portrait of yourself with the help of this script.
 
-Point it to a portrait photo (color or grayscale) and set the desired number of dices per row. 
+Point it to a portrait photo (color or grayscale) and set the desired number of dice per row. 
 
-It will calculate how many dice you will need to recreate the portrait and will output helping files:
+It will calculate how many dice you will need to recreate the portrait and will output several helping files:
  
- - color images with dice numbers grid overlay
+ - color image with dice numbers grid overlay
  - grayscale image with dice numbers grid overlay
  - grayscale image of actual dice faces rendering
  - csv file with row by row mapping of dice placement
  
  
  ## output rendering
+  
   ![full_dice_rendering](https://github.com/mirceaciu/dicedraw/blob/master/output-to-dice.png)
 
  
@@ -27,7 +28,7 @@ Each row of the portrait has two rows in the csv file:
 1,-,01,01,01,01,01,01,01,01,01,02,01,01,01,01,01,01,01,01,01,01
 ```
 
-First column is the portrait row number. First column is the portrait column number and the second is the corresponding die face number. 
+First csv column is the portrait row number. First row is the portrait column number and the second is the corresponding die face number. 
 
 Each portrait row from the csv file is separated by a new line:
 
