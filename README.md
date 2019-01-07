@@ -46,4 +46,4 @@ Each portrait row from the csv file is separated by a new line:
 4,-,01,01,01,01,01,02,05,06,05,06,06,06,05,04,02,01,01,01,01,01
 ```
 
-Build with Python3.5 and OpenCv on Ubuntu16.04. Check [this link](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/) for a guide on how installing OpenCv.
+Built with Python3.5 and OpenCv on Ubuntu16.04. Check [this link](https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/) for a guide on how to install OpenCv.
