@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  dice_server:
+    build:
+      dockerfile: compose/server/Dockerfile
+      context: .
+    ports:
+      - 5000:5000
+    volumes:
+      - ./outputs:/app/outputs

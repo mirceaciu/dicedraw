@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,900&display=swap');
+
+p {
+    margin: 0;
+    padding: 0
+}
+
+.main-wrapper{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.main-form {
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #4f4f4f;
+}
+
+.main-form {
+    font-weight: 500
+}
+
+.title-logo {
+    margin: 2em auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+input{
+    margin: 1em 0;
+}
+
+form > p {
+    font-size: 0.8em;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: -1em;
+}
+
+input {
+    height: 45px;
+    border-radius: 6px;
+}
+
+input[type="email"] {    
+    padding: 0.5em;
+    box-sizing: border-box;
+    border: 1px solid #b3b3b3;
+}
+
+input[type="submit"] {
+    background-color: #ff9100;
+    border: none;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 900;
+    -webkit-box-shadow: 0px 0px 21px 4px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 0px 21px 4px rgba(0,0,0,0.16);
+    box-shadow: 0px 0px 21px 4px rgba(0,0,0,0.16);
+}
+
+input[type="email"], textarea, select { 
+    outline: none;
+}
+
+
+/* custom file input */
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    height: 45px;
+    border-radius: 6px;
+    line-height: 45px;
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #ff9100;
+    background-color: white;
+    display: inline-block;
+    cursor: pointer;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-color: #ff9100;
+    margin-bottom: 1em;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    /* background-color: red; */
+}
